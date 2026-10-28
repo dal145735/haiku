@@ -1,3 +1,5 @@
+/* styles.css */
+
 .grid-container{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -17,8 +19,25 @@ body{
 	overflow: hidden;
 }
 
+div {
+	transition-property: transform;
+	transition-duration: 3s;
+}
+
 .last{
 	padding-bottom: 2rem;
 	border-bottom: 2px solid rgb(220,200,180);
 
 }
+
+/* Added styles for basic animation and class "red-glow" to text"
+.red-glow {
+	transition: all .5s 
+}
+
+.red-glow:hover {
+	color:red;
+	transform: scale(1.5) rotate(45deg);
+	text-shadow:0 0 15px red;
+}
+	*/
